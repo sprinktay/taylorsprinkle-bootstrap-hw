@@ -1,0 +1,84 @@
+// Custom variable overrides go here
+// For options, see node_modules/bootstrap/scss/_variables.scss
+// Custom variable overrides go here
+// For options, see node_modules/bootstrap/scss/_variables.scss
+// examples:
+// $body-bg: black;
+// $body-color: white;
+// $link-hover-color: grey;
+// $font-family-sans-serif: "Helvetica Neue";
+// Variable Overrides
+$body-bg: #ededed;
+.jumbotron {
+  background-color: #ffffff !important;
+  border-top: 3px solid rgb(219, 219, 219);
+  background-image: url("../img/pirate-ship.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 400px;
+  padding: 400px;
+}
+
+// Import Bootstrap styles
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Import partials here
+
+.jumbotron h1 {
+  font-size: 60px;
+  font-family: 'Barrio';
+  color: white;
+}
+.jumbotron p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+.footer {
+  color: white;
+  margin-top: 200;
+}
+.navbar {
+  color: white;
+}
+.navbar a:hover {
+  text-decoration: underline; 
+}
+.profile {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+}
+.profile p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: left;
+  font-style: italic;
+}
+h4 {
+  font-family: 'Barrio';
+}
+p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.carousel-inner {
+  padding-bottom: 20px;
+  border: none;
+}
+.profile-photo {
+  padding-bottom: 5px;
+  border: none;
+}
+.active {
+  font-weight: bolder;
+}
+h6 {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn-group a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+
+
+
